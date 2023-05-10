@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.bgReaction {
+  background-color: #fff6f5;
+}
+
+.textReaction {
+  color: #e86f76;
+}
+
+.bgMemory {
+  background-color: #FFFbf2;
+}
+
+.textMemory {
+  color: #debc6c;
+}
+
+.bgVerbal {
+  background-color: #f2fafa;
+}
+
+.textVerbal {
+  color: #1b9472;
+}
+
+.bgVisual {
+  background-color: #F3F3FD;
+}
+
+.textVisual {
+  color: #424aa0;
+}
