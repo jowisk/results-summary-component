@@ -14,7 +14,7 @@ const SkillsList = ({ skills }) => {
                 />
             ))}
 
-            <button className="bg-[#303b59] text-white p-[15px] rounded-[30px]">Continue</button>
+            <button className="bg-gradient-to-b from-[#303b59] to-[#303B59] text-white p-[15px] rounded-[30px] hover:from-[#7857FF] hover:to-[#2E2BE9]">Continue</button>
         </div>
     )
 }
