@@ -13,22 +13,22 @@ function App() {
     {
       name: "Reaction",
       value: (Math.floor(Math.random() * (101 - 0) + 0)),
-      icon: '../public/assets/images/icon-reaction.svg'
+      icon: '/assets/images/icon-reaction.svg'
     },
     {
       name: "Memory",
       value: (Math.floor(Math.random() * (101 - 0) + 0)),
-      icon: '../public/assets/images/icon-memory.svg'
+      icon: 'assets/images/icon-memory.svg'
     },
     {
       name: "Verbal",
       value: (Math.floor(Math.random() * (101 - 0) + 0)),
-      icon: "../public/assets/images/icon-verbal.svg"
+      icon: "assets/images/icon-verbal.svg"
     },
     {
       name: "Visual",
       value: (Math.floor(Math.random() * (101 - 0) + 0)),
-      icon: "../public/assets/images/icon-visual.svg"
+      icon: "assets/images/icon-visual.svg"
     },
   ]
 
