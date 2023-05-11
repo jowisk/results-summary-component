@@ -3,7 +3,7 @@ import SkillsList from '../molecules/SkillsList'
 
 const Summary = ({ skills }) => {
     return (
-        <div className="h-[494px] w-full flex flex-col px-[30px] py-[20px]">
+        <div className="h-full w-full flex flex-col px-[30px] py-[20px] lg:h-full">
             <p className="font-bold">Summary</p>
             <SkillsList
                 skills={skills}

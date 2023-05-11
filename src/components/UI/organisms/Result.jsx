@@ -3,7 +3,7 @@ import Total from '../molecules/Total'
 
 const Result = ({ average, percentage }) => {
     return (
-        <div className="py-[10px] w-full h-[350px] flex flex-col items-center bg-gradient-to-b from-[#6743ff] to-[#3730c1] justify-around rounded-b-[35px]">
+        <div className="py-[10px] w-full h-full flex flex-col items-center bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] justify-around rounded-b-[35px] lg:rounded-[35px]">
 
             <p className="text-[20px] text-[#D6D6D6]">Your Result</p>
 

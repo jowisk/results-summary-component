@@ -44,7 +44,7 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen flex flex-col lg:flex-row lg:m-auto lg:h-[450px] lg:w-[700px] lg:items-center lg:justify-center">
       <Result
         average={average}
         percentage={percentage}
